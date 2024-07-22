@@ -38,9 +38,9 @@ bun dev
 
 ## Todo List
 
-- [x] Threejs installation
+- Threejs installation
   - [x] Vite
-- [ ] Animation
+- Animation
   - [ ] AnimationAction
   - [ ] AnimationClip
   - [ ] AnimationMixer
@@ -56,16 +56,16 @@ bun dev
   - [ ] QuaternionKeyframeTrack
   - [ ] StringKeyframeTrack
   - [ ] VectorKeyframeTrack
-- [ ] Cameras
+- Cameras
   - [ ] ArrayCamera
   - [x] Camera
   - [ ] CubeCamera
   - [ ] OrthographicCamera
   - [ ] PerspectiveCamera
   - [ ] StereoCamera
-- [ ] Geometries
+- Geometries
   - [x] BoxGeometry
-  - [ ] CapsuleGeometry
+  - [x] CapsuleGeometry
   - [ ] CircleGeometry
   - [ ] ConeGeometry
   - [ ] CylinderGeometry
@@ -85,6 +85,26 @@ bun dev
   - [ ] TorusKnotGeometry
   - [ ] TubeGeometry
   - [ ] WireframeGeometry
+- Materials
+  - [ ] LineBasicMaterial
+  - [ ] LineDashedMaterial
+  - [ ] Material
+  - [x] MeshBasicMaterial
+  - [ ] MeshDepthMaterial
+  - [ ] MeshDistanceMaterial
+  - [x] MeshLambertMaterial
+  - [ ] MeshMatcapMaterial
+  - [ ] MeshNormalMaterial
+  - [ ] MeshPhongMaterial
+  - [ ] MeshPhysicalMaterial
+  - [ ] MeshStandardMaterial
+  - [x] MeshToonMaterial
+  - [ ] PointsMaterial
+  - [ ] RawShaderMaterial
+  - [ ] ShaderMaterial
+  - [ ] ShadowMaterial
+  - [ ] SpriteMaterial
+
 
 ## License
 

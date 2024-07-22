@@ -1,0 +1,43 @@
+:root {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background: #000;
+  border-bottom: 1px solid #1a1a1a;
+  padding: 2rem 0;
+}
+
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin: 0;
+}
+
+header li a {
+  color: #FFF;
+}
+
+header li a:hover {
+  color: #fff456;
+}
