@@ -66,9 +66,9 @@ bun dev
 - Geometries
   - [x] BoxGeometry
   - [x] CapsuleGeometry
-  - [ ] CircleGeometry
-  - [ ] ConeGeometry
-  - [ ] CylinderGeometry
+  - [x] CircleGeometry
+  - [x] ConeGeometry
+  - [x] CylinderGeometry
   - [ ] DodecahedronGeometry
   - [ ] EdgesGeometry
   - [ ] ExtrudeGeometry

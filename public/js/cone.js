@@ -14,16 +14,16 @@ document.body.appendChild( renderer.domElement );
 
 // Animate
 function animate() {
-  capsule.rotation.y += 0.02;
+  cone.rotation.y += 0.02;
 	renderer.render( scene, camera );
 }
 renderer.setAnimationLoop( animate );
 
-// Capsule
-const capsuleGeometry = new THREE.CapsuleGeometry( 1, 2, 4, 8 ); 
-const capsuleMaterial = new THREE.MeshToonMaterial( { color: 0xFFFFFF } ); 
-const capsule = new THREE.Mesh( capsuleGeometry, capsuleMaterial );
-capsule.position.set( 0, 0, 0 );
+// Cone
+const coneGeometry = new THREE.ConeGeometry( 2, 3, 3 ); 
+const coneMaterial = new THREE.MeshToonMaterial( { color: 0xFFFFFF } ); 
+const cone = new THREE.Mesh( coneGeometry, coneMaterial );
+cone.position.set( 0, 0, 0 );
 
 // Light
 const point = new THREE.PointLight( 0xff0000 );
@@ -31,4 +31,4 @@ const ambient = new THREE.AmbientLight( 0x404040 );
 point.position.set( 0, 1, 0 );
 
 // Scene
-scene.add( capsule, point, ambient );
+scene.add( cone, point, ambient );

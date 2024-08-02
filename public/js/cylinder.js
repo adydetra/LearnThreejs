@@ -14,21 +14,22 @@ document.body.appendChild( renderer.domElement );
 
 // Animate
 function animate() {
-  capsule.rotation.y += 0.02;
+  cylinder.rotation.x += 0.01;
+  cylinder.rotation.y += 0.01;
 	renderer.render( scene, camera );
 }
 renderer.setAnimationLoop( animate );
 
-// Capsule
-const capsuleGeometry = new THREE.CapsuleGeometry( 1, 2, 4, 8 ); 
-const capsuleMaterial = new THREE.MeshToonMaterial( { color: 0xFFFFFF } ); 
-const capsule = new THREE.Mesh( capsuleGeometry, capsuleMaterial );
-capsule.position.set( 0, 0, 0 );
+// Cylinder
+const cylinderGeometry = new THREE.CylinderGeometry( 5, 5, 10, 8 );
+const cylinderMaterial = new THREE.MeshBasicMaterial( { color: 0xfcff3b } );
+const cylinder = new THREE.Mesh( cylinderGeometry, cylinderMaterial );
+cylinder.position.set( 0, 0, 0 );
 
 // Light
 const point = new THREE.PointLight( 0xff0000 );
 const ambient = new THREE.AmbientLight( 0x404040 );
-point.position.set( 0, 1, 0 );
+point.position.set( 3, 3, 3 );
 
 // Scene
-scene.add( capsule, point, ambient );
+scene.add( cylinder, point, ambient );
